@@ -1,0 +1,18 @@
+  TO DO
+------------
+
+Simulation design
+ - include parameters relating to the mesa
+ - ensure that mesa parameters are fed into the COMSOL model
+
+COMSOL 
+ - update model so that integration is performed over mesa only
+    - (this should ensure that the FWHM is more meaningful as there will be spins only 
+       in the mesa and thus the distribution will be narrower)
+
+Post Processing
+ - Characterize the FWHM of pi-pulses in some form of fitting routine
+ 
+ Machine learning
+  - Redo the machine learning on coupling strength relating to the mesa only!
+  - Perform a pi-pulse fidelity machine learning run
